@@ -1,0 +1,32 @@
+{
+  "name": "nodejsapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon api.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.19.0",
+    "cors": "2.8.5",
+    "edi-parser": "^1.0.1",
+    "express": "~4.17.1",
+    "helmet": "^4.4.1",
+    "json2xls": "^0.1.2",
+    "sanitize": "^2.1.0",
+    "simple-encryptor": "^4.0.0",
+    "swagger-jsdoc": "^5.0.1",
+    "swagger-ui-express": "^4.1.6",
+    "uuid-token-generator": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/swagger-jsdoc": "^6.0.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "nodemon": "2.0.7"
+  },
+  "keywords": [],
+  "author": "Edgar Bicho",
+  "license": "ISC"
+}
